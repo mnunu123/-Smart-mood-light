@@ -7,6 +7,10 @@ Transformer 기반 시퀀스 분류 모델로 5가지 제스처를 인식합니�
 - **인식 제스처(5종)**: `red` / `green` / `blue` (색상 전환), `up` / `down` (밝기 조절)
 - **Stack**: Python, OpenCV, MediaPipe Hands, TensorFlow/Keras (Transformer Encoder)
 
+> ⚠️ **실제 구동 화면 캡처 불가 안내**: 이 프로젝트는 물리적 웹캠 입력이 필수라, 카메라 장치가 없는 서버/에이전트 환경에서는
+> 실행할 수 없습니다. 대신 `train.ipynb`에 이미 기록된 실제 학습 로그(검증 정확도 100%, 50 epoch)가
+> 저자 본인 PC에서 실제로 실행한 결과이니, 모델 동작 확인은 해당 노트북 셀 출력을 참고해주세요.
+
 ## 파이프라인
 
 ```
